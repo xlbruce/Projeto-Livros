@@ -1,0 +1,24 @@
+﻿#Endpoins da aplicação
+
+LOGIN
+
+	Fazer login:
+
+		PUT /login
+
+	Parametros:
+
+		user: String
+		password: String
+
+
+	Cadastrar usuário:
+		POST /register
+	
+	Parametros:
+		name: String
+		tia: Integer
+		email: String
+		password: String
+		
+//TODO
